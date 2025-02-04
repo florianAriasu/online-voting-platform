@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tema1.AppTest" tests="62" skipped="0" failures="5" errors="0" timestamp="2024-12-01T18:52:24" hostname="Florians-MacBook-Air.local" time="0.051">
+  <properties/>
+  <testcase name="test10()" classname="Tema1.AppTest" time="0.008"/>
+  <testcase name="test11()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test12()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test13()" classname="Tema1.AppTest" time="0.003"/>
+  <testcase name="test14()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test15()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test16()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test17()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test18()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test19()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test20()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test21()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test22()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test23()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test24()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test25()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test26()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test27()" classname="Tema1.AppTest" time="0.004"/>
+  <testcase name="test28()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test29()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test30()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test31()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test32()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test33()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test34()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test35()" classname="Tema1.AppTest" time="0.002"/>
+  <testcase name="test36()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test37()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test38()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test39()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test40()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test41()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test42()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test43()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test44()" classname="Tema1.AppTest" time="0.002">
+    <failure message="org.opentest4j.AssertionFailedError: GOL: Lumea nu isi exercita dreptul de vot in Bucuresti&#10;EROARE: Nu exista alegeri cu acest id&#10;EROARE: Nu exista o circumscriptie cu numele Bucuresti&#10;Raport voturi Bucuresti:&#10;S-au creat alegerile Alegeri Electorale 2025&#10;Au pornit alegerile Alegeri Electorale 2025&#10;S-a adaugat circumscriptia Bucuresti&#10;S-a adaugat circumscriptia Bucuresti2&#10;S-a adaugat circumscriptia Bucuresti3&#10;S-a adaugat candidatul Dumitru Florin Ionescu&#10;S-a adaugat candidatul Dumitru Florin Ionescu2&#10;S-a adaugat votantul Chipescu Ciprian&#10;S-a adaugat votantul Chipescu Ciprian2&#10;S-a adaugat votantul Chipescu Ciprian3&#10;S-a adaugat votantul Chipescu Ciprian4&#10;S-a adaugat votantul Chipescu Ciprian5&#10;S-a adaugat votantul Chipescu Ciprian6&#10;S-a adaugat votantul Chipescu Ciprian7&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;S-au terminat alegerile Alegeri Electorale 2025" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: GOL: Lumea nu isi exercita dreptul de vot in Bucuresti
+EROARE: Nu exista alegeri cu acest id
+EROARE: Nu exista o circumscriptie cu numele Bucuresti
+Raport voturi Bucuresti:
+S-au creat alegerile Alegeri Electorale 2025
+Au pornit alegerile Alegeri Electorale 2025
+S-a adaugat circumscriptia Bucuresti
+S-a adaugat circumscriptia Bucuresti2
+S-a adaugat circumscriptia Bucuresti3
+S-a adaugat candidatul Dumitru Florin Ionescu
+S-a adaugat candidatul Dumitru Florin Ionescu2
+S-a adaugat votantul Chipescu Ciprian
+S-a adaugat votantul Chipescu Ciprian2
+S-a adaugat votantul Chipescu Ciprian3
+S-a adaugat votantul Chipescu Ciprian4
+S-a adaugat votantul Chipescu Ciprian5
+S-a adaugat votantul Chipescu Ciprian6
+S-a adaugat votantul Chipescu Ciprian7
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+S-au terminat alegerile Alegeri Electorale 2025
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at Tema1.AppTest.test44(AppTest.java:1094)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="test45()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test46()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test47()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test48()" classname="Tema1.AppTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025&#10;GOL: Lumea nu isi exercita dreptul de vot in Romania&#10;EROARE: Inca nu s-a terminat votarea&#10;Raport voturi Romania:&#10;Au pornit alegerile Alegeri Electorale 2025&#10;S-a adaugat circumscriptia Bucuresti&#10;S-a adaugat circumscriptia Bucuresti2&#10;S-a adaugat circumscriptia Bucuresti3&#10;S-a adaugat candidatul Dumitru Florin Ionescu&#10;S-a adaugat candidatul Dumitru Florin Ionescu2&#10;S-a adaugat votantul Chipescu Ciprian&#10;S-a adaugat votantul Chipescu Ciprian2&#10;S-a adaugat votantul Chipescu Ciprian3&#10;S-a adaugat votantul Chipescu Ciprian4&#10;S-a adaugat votantul Chipescu Ciprian5&#10;S-a adaugat votantul Chipescu Ciprian6&#10;S-a adaugat votantul Chipescu Ciprian7&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;S-au terminat alegerile Alegeri Electorale 2025" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025
+GOL: Lumea nu isi exercita dreptul de vot in Romania
+EROARE: Inca nu s-a terminat votarea
+Raport voturi Romania:
+Au pornit alegerile Alegeri Electorale 2025
+S-a adaugat circumscriptia Bucuresti
+S-a adaugat circumscriptia Bucuresti2
+S-a adaugat circumscriptia Bucuresti3
+S-a adaugat candidatul Dumitru Florin Ionescu
+S-a adaugat candidatul Dumitru Florin Ionescu2
+S-a adaugat votantul Chipescu Ciprian
+S-a adaugat votantul Chipescu Ciprian2
+S-a adaugat votantul Chipescu Ciprian3
+S-a adaugat votantul Chipescu Ciprian4
+S-a adaugat votantul Chipescu Ciprian5
+S-a adaugat votantul Chipescu Ciprian6
+S-a adaugat votantul Chipescu Ciprian7
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+S-au terminat alegerile Alegeri Electorale 2025
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at Tema1.AppTest.test48(AppTest.java:1308)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="test49()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test50()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test51()" classname="Tema1.AppTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025&#10;Au pornit alegerile Alegeri Electorale 2025&#10;GOL: Lumea nu isi exercita dreptul de vot in Bucuresti&#10;EROARE: Nu exista o circumscriptie cu numele Bucuresti&#10;EROARE: Inca nu s-a terminat votarea&#10;S-a adaugat circumscriptia Bucuresti&#10;S-a adaugat circumscriptia Bucuresti2&#10;S-a adaugat circumscriptia Bucuresti3&#10;S-a adaugat candidatul Dumitru Florin Ionescu&#10;S-a adaugat candidatul Dumitru Florin Ionescu2&#10;S-a adaugat votantul Chipescu Ciprian&#10;S-a adaugat votantul Chipescu Ciprian2&#10;S-a adaugat votantul Chipescu Ciprian3&#10;S-a adaugat votantul Chipescu Ciprian4&#10;S-a adaugat votantul Chipescu Ciprian5&#10;S-a adaugat votantul Chipescu Ciprian6&#10;S-a adaugat votantul Chipescu Ciprian7&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;S-au terminat alegerile Alegeri Electorale 2025" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025
+Au pornit alegerile Alegeri Electorale 2025
+GOL: Lumea nu isi exercita dreptul de vot in Bucuresti
+EROARE: Nu exista o circumscriptie cu numele Bucuresti
+EROARE: Inca nu s-a terminat votarea
+S-a adaugat circumscriptia Bucuresti
+S-a adaugat circumscriptia Bucuresti2
+S-a adaugat circumscriptia Bucuresti3
+S-a adaugat candidatul Dumitru Florin Ionescu
+S-a adaugat candidatul Dumitru Florin Ionescu2
+S-a adaugat votantul Chipescu Ciprian
+S-a adaugat votantul Chipescu Ciprian2
+S-a adaugat votantul Chipescu Ciprian3
+S-a adaugat votantul Chipescu Ciprian4
+S-a adaugat votantul Chipescu Ciprian5
+S-a adaugat votantul Chipescu Ciprian6
+S-a adaugat votantul Chipescu Ciprian7
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+S-au terminat alegerile Alegeri Electorale 2025
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at Tema1.AppTest.test51(AppTest.java:1491)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="test52()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test53()" classname="Tema1.AppTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025&#10;Au pornit alegerile Alegeri Electorale 2025&#10;S-a adaugat circumscriptia Bucuresti&#10;S-a adaugat circumscriptia Bucuresti2&#10;S-a adaugat circumscriptia Bucuresti3&#10;GOL: Lumea nu isi exercita dreptul de vot in Romania&#10;EROARE: Inca nu s-a terminat votarea&#10;S-a adaugat candidatul Dumitru Florin Ionescu&#10;S-a adaugat candidatul Dumitru Florin Ionescu2&#10;S-a adaugat votantul Chipescu Ciprian&#10;S-a adaugat votantul Chipescu Ciprian2&#10;S-a adaugat votantul Chipescu Ciprian3&#10;S-a adaugat votantul Chipescu Ciprian4&#10;S-a adaugat votantul Chipescu Ciprian5&#10;S-a adaugat votantul Chipescu Ciprian6&#10;S-a adaugat votantul Chipescu Ciprian7&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;S-au terminat alegerile Alegeri Electorale 2025" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025
+Au pornit alegerile Alegeri Electorale 2025
+S-a adaugat circumscriptia Bucuresti
+S-a adaugat circumscriptia Bucuresti2
+S-a adaugat circumscriptia Bucuresti3
+GOL: Lumea nu isi exercita dreptul de vot in Romania
+EROARE: Inca nu s-a terminat votarea
+S-a adaugat candidatul Dumitru Florin Ionescu
+S-a adaugat candidatul Dumitru Florin Ionescu2
+S-a adaugat votantul Chipescu Ciprian
+S-a adaugat votantul Chipescu Ciprian2
+S-a adaugat votantul Chipescu Ciprian3
+S-a adaugat votantul Chipescu Ciprian4
+S-a adaugat votantul Chipescu Ciprian5
+S-a adaugat votantul Chipescu Ciprian6
+S-a adaugat votantul Chipescu Ciprian7
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+S-au terminat alegerile Alegeri Electorale 2025
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at Tema1.AppTest.test53(AppTest.java:1632)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="test54()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test55()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test56()" classname="Tema1.AppTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025&#10;Au pornit alegerile Alegeri Electorale 2025&#10;S-a adaugat circumscriptia Bucuresti&#10;S-a adaugat circumscriptia Bucuresti2&#10;S-a adaugat circumscriptia Bucuresti3&#10;GOL: Romanii sunt cinstiti&#10;EROARE: Inca nu s-a terminat votarea&#10;Fraude comise:&#10;S-a adaugat candidatul Dumitru Florin Ionescu&#10;S-a adaugat candidatul Dumitru Florin Ionescu2&#10;S-a adaugat votantul Chipescu Ciprian&#10;S-a adaugat votantul Chipescu Ciprian2&#10;S-a adaugat votantul Chipescu Ciprian3&#10;S-a adaugat votantul Chipescu Ciprian4&#10;S-a adaugat votantul Chipescu Ciprian5&#10;S-a adaugat votantul Chipescu Ciprian6&#10;S-a adaugat votantul Chipescu Ciprian7&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu&#10;Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2&#10;Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat&#10;Chipescu Ciprian a votat pentru Dumitru Florin Ionescu&#10;S-au terminat alegerile Alegeri Electorale 2025" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: S-au creat alegerile Alegeri Electorale 2025
+Au pornit alegerile Alegeri Electorale 2025
+S-a adaugat circumscriptia Bucuresti
+S-a adaugat circumscriptia Bucuresti2
+S-a adaugat circumscriptia Bucuresti3
+GOL: Romanii sunt cinstiti
+EROARE: Inca nu s-a terminat votarea
+Fraude comise:
+S-a adaugat candidatul Dumitru Florin Ionescu
+S-a adaugat candidatul Dumitru Florin Ionescu2
+S-a adaugat votantul Chipescu Ciprian
+S-a adaugat votantul Chipescu Ciprian2
+S-a adaugat votantul Chipescu Ciprian3
+S-a adaugat votantul Chipescu Ciprian4
+S-a adaugat votantul Chipescu Ciprian5
+S-a adaugat votantul Chipescu Ciprian6
+S-a adaugat votantul Chipescu Ciprian7
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian2 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian3 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian4 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian5 a votat pentru Dumitru Florin Ionescu
+Chipescu Ciprian6 a votat pentru Dumitru Florin Ionescu2
+Chipescu Ciprian7 a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+FRAUDA: Votantul cu CNP-ul 1234567891234 a incercat sa comita o frauda. Votul a fost anulat
+Chipescu Ciprian a votat pentru Dumitru Florin Ionescu
+S-au terminat alegerile Alegeri Electorale 2025
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at Tema1.AppTest.test56(AppTest.java:1826)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="test57()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test58()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test59()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test60()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test61()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test0()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test1()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test2()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test3()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test4()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test5()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test6()" classname="Tema1.AppTest" time="0.001"/>
+  <testcase name="test7()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test8()" classname="Tema1.AppTest" time="0.0"/>
+  <testcase name="test9()" classname="Tema1.AppTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
