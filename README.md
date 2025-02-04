@@ -1,68 +1,63 @@
-## Tema 1 POO
+## Online Voting Platform 🗳️
 
-#### Clase utilizate
-In aceasta tema am creat urmatoarele clase:
+#### Classes 🏫
+For this project I have implemented the following classes:
 
 - Alegeri
 - Circumscriptie
-- Persoana (care este o clasa abstracta)
-- Candidat (mosteneste persoana)
-- Votant (mosteneste persoana)
+- Persoana (abstract class)
+- Candidat (extends persoana)
+- Votant (extends persoana)
 - Vot
-- FunctiiAuxiliare (este o clasa ce contine toate metodele scurte pentru verificari erori de orice tip)
-- ManagerGeneralAlegeri (aceasta clasa este clasa `main` in sensul ca reprezinta nucleul aplicatiei)
-- StagiuAlegeri (este un enum cu cele trei tipuri de stagii ale votarii)
+- FunctiiAuxiliare (aux methods)
+- ManagerGeneralAlegeri (this class represents the core of the application)
+- StagiuAlegeri (this is an enum declaring all 3 stages of the election)
 
-#### Clase precizate in enunt, dar pe care nu le-am creat
-- Frauda
-- Analiza
+#### Feature Description ⚙️
 
-```
- Tin sa precizez ca nu am creat aceste clase, deoarece toata implementarea gandita de mine este in ManagerGeneralAlegeri si nu am avut nevoie pentru punctajul cumulat
-```
-
-#### Descriere functionalitati
-
-###### Structuri de date folosite
-- HashMap<,>
+###### Data structures 🗃️
+- HashMap<>
 - ArrayList<>
 
-###### Clase
-- Am folosit o clasa tip `manager`, deoarece as fi creat o instanta a unui obiect de tip alegeri in mod redundant la intalnirea oricarei erori din enuntul temei
-- Aici am toate metodele necesare pentru a implementa functionalitatea temei(in functie de punctajul obtinut de mine)
-- In clasa `Alegeri` am definite variabilele necesare + constructor + getter-e si setter-e
-- Toate celelalte clase au acelasi tipar precum `Alegeri`
-- `Enum-ul` l-am definit pentru a nu transmite ca argument la apelul functiilor si tipul de stagiu ca String. Nu este neaparat nevoie, ci asa m-am gandit sa implementez
-- `Persoana` este o clasa abstracta, deoarece nu creez in mod explicit o persoana, ci doar `votanti` sau `candidati`
-- Clasele `Votant` si `Candidat` extind clasa parinte `Persoana`
+###### Classes 📚
+- I used a `manager` class because I would have created an instance of an `Alegeri` object redundantly whenever an error from the assignment statement occurred.
+- Here, I have all the necessary methods to implement the functionality of the assignment.
+- In the `Alegeri` class, I defined the necessary variables, constructor, and getters and setters.
+- All the other classes follow the same pattern as `Alegeri`.
+- I defined the `Enum` to avoid passing the stage type as a `String` argument when calling functions. It's not strictly necessary, but that's how I decided to implement it.
+- `Persoana` is an abstract class because I do not explicitly create instances of `Persoana`, but only instances of `Votanti` or `Candidati`.
+- `Votant` and `Candidat` extend `Persoana`
 
-###### Citirea
-- `Citirea` am facut-o cu ajutorul unui HashMap<>, dar care are valori duplicate, deoarece si comenzile se pot repeta pentru testarea erorilor
-- Citesc linie cu linie si populez HashMap-ul, iar apoi doar il parcurg si extrag valorile, valorile fiind comenzile din AppTest.java
+###### Reading Data 📖
+- I handled the "reading" using a HashMap<>, but it allows duplicate values because the commands may repeat for error testing.  
+- I read line by line and populate the HashMap, and then I simply iterate through it and extract the values, which are the commands from AppTest.java.
 
-###### Apelare metode
-- Am folosit un `switch`, astfel incat sa am codul cat mai bine formatat in functie de ce metoda vreau sa apelez si este posibil sa fie mai lizibil codul astfel
-- Cand intalneste comanda de `exit` si anume `18` iese direct din metoda Run()
+###### Method Calling 🔄
+- I have used a switch statement and formatted the code as effectively as possible based on which method I want to call. This makes the code more readable. When the exit command (namely 18) is encountered, it directly exits the Run() method
 
-###### Concepte POO folosite
-- Am folosit doar 3/4 concepte POO, si anume: `encapsulare`, `mostenire`, `abstractizare`
-- `Encapsulare`: acest concept l-am folosit pentru ca am folosit variabile private per clasa cu constructori publici
-- `Abstractizare`: Am clasa `Persoana` care este abstracta, deoarece nu creez niciodata o instanta explicit persoana, ci `candidat` sau `votant`
-- `mostenire`: Datorita faptului ca folosesc abstractizare si pentru ca folosesc super() in constructor. Am o relatie de tipul is-a.
-- Nu am folosit polimorfism, deoarece nu am suprascris nicio metoda si nu am toata implementarea corecta, astfel incat rezultatul este 70/80 puncte
-
-###### Punctaj partial
-- Am obtinut punctaj partial pe aceasta tema, desi codul meu ar trebui sa acopere toate cazurile din cerinta
-- Am diferite bug-uri cand adaug voturile in lista de voturi sau votantii in lista de votanti, astfel incat nu functioneaza listarea in niciun caz din implementarea ultimelor metode
-
-###### Comentarii
-- Nu am adaugat comentarii in cod pentru a nu il supraincarca
-- Am avut grija sa folosesc numele de variabile, metode, clase doar intr-o singura limba(lb. Romana) si sa folosesc reguli de formatare a codului general cunoscute in Java, astfel incat sa fie totul cat mai organizat si coerent
-- Am avut in vedere sa fiu cat mai explicit in numele variabilelor si a metodelor, astfel incat sa nu trebuiasca sa supraincarc codul adaugand si comentarii
-
-###### Bonus
-- AppTest.java poate fi imbunatatit, deoarece nu tine cont de ordinea afisarii rezultatului, prin urmare `toate sortarile` in functie de CNP sau numar de voturi sunt `redundante`
-- Acest lucru se intampla pentru ca este folosita metoda contains()
-- Ca solutie m-am gandit ca rezultatul poate fi scris tot block si nu secvential, cu rezultate unul dupa celalalt
-- De asemenea, as implementa si o functionalitate, astfel incat sa vad cu adevarat cine este votant frausulos, deoarece si cei neindemanatici ar fi catalogati ca fiind fraudulosi, in caz de incearca a doua oara sa voteze, votul lor necontand prima oara, pe cand la votantii fraudulosi ei chiar sunt la al doilea vot
+###### OOP Principles 🧩
+- `Encapsulation`
+- `Abstraction`
+- `Inheritance`
   
+###### Comments 💬
+- I avoided adding comments in the code to keep it clean and not overcomplicated.  
+- I ensured that variable, method, and class names are all in a single language (Romanian) and followed standard Java formatting conventions to keep everything well-organized and consistent.  
+- I focused on making variable and method names as descriptive as possible, so there would be no need to add comments for clarification.  
+
+###### Bonus 🎁
+- AppTest.java can be improved because it does not take the order of the results into account. Therefore, `all sorting` by CNP or number of votes are `redundant`.
+- This happens because the `contains()` method is used.
+- As a solution, I thought the result could be written as a block instead of sequentially, with results one after the other.
+- Also, I would implement a feature to truly identify fraudulent voters, since even clumsy individuals would be categorized as fraudulent if they attempt to vote a second time, with their first vote not being counted. Meanwhile, fraudulent voters are actually at their second vote.
+
+#### Tips for Running the Project ⚡
+To run this project, you need to have **Gradle** installed on your local machine.  
+> [!NOTE] 
+> If you do not have Gradle installed, you can download it from [Gradle's official website](https://gradle.org/install/).
+
+This project includes a `settings.gradle` file, which is used to configure the Gradle build.  
+> [!NOTE] 
+> Once you have Gradle installed, navigate to the project directory in your terminal and run the following command to install the required dependencies:
+  ```bash
+  gradle build
