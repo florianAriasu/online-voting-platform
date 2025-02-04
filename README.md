@@ -61,3 +61,10 @@ This project includes a `settings.gradle` file, which is used to configure the G
 > Once you have Gradle installed, navigate to the project directory in your terminal and run the following command to install the required dependencies:
   ```bash
   gradle build
+```
+
+> [!TIP]
+> #### Gradle Integration with IntelliJ IDEA 📦
+> 
+> The project includes the `gradle/wrapper` directory, allowing IntelliJ IDEA to automatically recognize it as a Gradle project. No additional plugins are required—just open the project, and access Gradle tasks from the sidebar
+
