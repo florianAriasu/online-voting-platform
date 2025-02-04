@@ -32,7 +32,7 @@ In aceasta tema am creat urmatoarele clase:
 - Aici am toate metodele necesare pentru a implementa functionalitatea temei(in functie de punctajul obtinut de mine)
 - In clasa `Alegeri` am definite variabilele necesare + constructor + getter-e si setter-e
 - Toate celelalte clase au acelasi tipar precum `Alegeri`
-- `Enum-ul` l-am definit pentru a nu transmite ca argument mereu la apelul functiilor si tipul de stagiu ca String. Nu este neaparat nevoie, ci asa m-am gandit sa implementez
+- `Enum-ul` l-am definit pentru a nu transmite ca argument la apelul functiilor si tipul de stagiu ca String. Nu este neaparat nevoie, ci asa m-am gandit sa implementez
 - `Persoana` este o clasa abstracta, deoarece nu creez in mod explicit o persoana, ci doar `votanti` sau `candidati`
 - Clasele `Votant` si `Candidat` extind clasa parinte `Persoana`
 
