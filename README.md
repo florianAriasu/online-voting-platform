@@ -41,7 +41,7 @@ For this project I have implemented the following classes:
 - `Inheritance`
   
 ###### Comments 💬
-- I avoided adding comments in the code to keep it clean and not overcomplicated.  
+- I avoided adding comments in the code to keep it clean.  
 - I ensured that variable, method, and class names are all in a single language (Romanian) and followed standard Java formatting conventions to keep everything well-organized and consistent.  
 - I focused on making variable and method names as descriptive as possible, so there would be no need to add comments for clarification.  
 
